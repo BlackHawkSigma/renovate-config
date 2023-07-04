@@ -1,0 +1,16 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Extends App-Preset and enables branch automerge outside office hours. Weekly lockfile maintenance.",
+  "extends": [
+    "config:js-app",
+    "helpers:disableTypesNodeMajor",
+    ":automergeBranch",
+    ":automergeMinor",
+    ":maintainLockFilesWeekly"
+  ],
+  "schedule": [
+    "after 4pm every weekday",
+    "before 7am every weekday",
+    "every weekend"
+  ]
+}
