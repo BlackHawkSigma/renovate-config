@@ -13,5 +13,6 @@
     "before 7am every weekday",
     "every weekend"
   ],
+  "assignees": [ "BlackHawkSigma" ],
   "major": { "reviewers": [ "BlackHawkSigma" ] }
 }
