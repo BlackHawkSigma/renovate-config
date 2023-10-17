@@ -14,5 +14,13 @@
     "every weekend"
   ],
   "assignees": [ "BlackHawkSigma" ],
-  "major": { "reviewers": [ "BlackHawkSigma" ] }
+  "major": { "reviewers": [ "BlackHawkSigma" ] },
+  "packageRules": [
+    {
+      "matchDatasources": [ "npm" ],
+      "matchPackageNames": [ "react-table" ],
+      "replacementName": "@tanstack/react-table",
+      "replacementVersion": "8.0.0"
+    }
+  ]
 }
