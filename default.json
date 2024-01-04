@@ -8,9 +8,9 @@
     ":automergeMinor",
     ":maintainLockFilesWeekly"
   ],
-  "schedule": [
-    "after 4pm every weekday",
-    "before 7am every weekday",
+  "automergeSchedule": [
+    "after 3pm every weekday",
+    "before 6am every weekday",
     "every weekend"
   ],
   "assignees": [ "BlackHawkSigma" ],
