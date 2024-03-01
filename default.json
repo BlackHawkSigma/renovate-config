@@ -21,6 +21,10 @@
       "matchPackageNames": [ "react-table" ],
       "replacementName": "@tanstack/react-table",
       "replacementVersion": "8.0.0"
+    },
+    {
+      "matchPackageNames": [ "@types/node" ],
+      "extends": [ "schedule:weekly" ]
     }
   ]
 }
