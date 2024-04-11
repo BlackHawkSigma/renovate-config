@@ -14,7 +14,6 @@
     "every weekend"
   ],
   "assignees": [ "BlackHawkSigma" ],
-  "major": { "reviewers": [ "BlackHawkSigma" ] },
   "packageRules": [
     {
       "matchDatasources": [ "npm" ],
