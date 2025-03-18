@@ -14,6 +14,7 @@
     "every weekend"
   ],
   "assignees": [ "BlackHawkSigma" ],
+  "prConcurrentLimit": 2,
   "packageRules": [
     {
       "matchDatasources": [ "npm" ],
