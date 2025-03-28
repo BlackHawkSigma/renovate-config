@@ -25,6 +25,11 @@
     {
       "matchPackageNames": [ "@types/node" ],
       "extends": [ "schedule:weekly" ]
+    },
+    {
+      "matchPackageNames": [ "@js-temporal/polyfill" ],
+      "automerge": false,
+      "reviewers": [ "BlackHawkSigma" ]
     }
   ]
 }
