@@ -29,12 +29,12 @@
     {
       "matchPackageNames": [ "@js-temporal/polyfill" ],
       "automerge": false,
-      "reviewers": [ "BlackHawkSigma" ]
+      "assignees": [ "BlackHawkSigma" ]
     },
     {
       "matchVersionPattern": "beta|Beta|BETA",
       "automerge": false,
-      "reviewers": [ "BlackHawkSigma" ]
+      "assignees": [ "BlackHawkSigma" ]
     }
   ]
 }
