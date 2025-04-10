@@ -32,9 +32,14 @@
       "assignees": [ "BlackHawkSigma" ]
     },
     {
-      "matchVersionPattern": "beta|Beta|BETA",
+      "groupName": "react-compiler packages",
+      "matchPackageNames": [
+        "babel-plugin-react-compiler",
+        "eslint-plugin-react-compiler",
+        "react-compiler-runtime"
+      ],
       "automerge": false,
-      "assignees": [ "BlackHawkSigma" ]
+      "reviewers": [ "BlackHawkSigma" ]
     }
   ]
 }
