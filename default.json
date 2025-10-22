@@ -1,6 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "description": "Extends App-Preset and enables branch automerge outside office hours. Weekly lockfile maintenance.",
+  "timezone": "Europe/Berlin",
   "extends": [
     "config:js-app",
     "helpers:disableTypesNodeMajor",
@@ -22,6 +23,13 @@
       "matchPackageNames": [ "react-table" ],
       "replacementName": "@tanstack/react-table",
       "replacementVersion": "8.0.0"
+    },
+    {
+      "matchDatasources": [ "npm" ],
+      "matchPackagePatterns": [ "^@redwoodjs/" ],
+      "replacementNameTemplate": "@cedarjs/{{{packageName}}}",
+      "automerge": false,
+      "assignees": [ "BlackHawkSigma" ]
     },
     {
       "matchPackageNames": [ "@types/node" ],
